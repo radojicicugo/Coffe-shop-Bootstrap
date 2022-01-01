@@ -1,0 +1,157 @@
+
+
+
+body{
+    font-family:"Oswald, sans-serif";
+     
+}
+ #hero-section {
+     background-image: url(../01-assignment/imgs/hero.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+
+}
+#hero-section::before{
+      content: "";
+      position: relative;
+      left: 0;
+      right:0;
+      bottom: 0;
+      background: #3124249c;
+      height: 100vh;
+
+}
+header a{
+    color:#1110109c;
+    margin-left: 40px;
+
+}
+.solid-header{
+    position: fixed;
+    background-color: #3124249c;
+    width: 100%;
+    margin:0 auto;
+    color: white;
+}
+.solid-header a{
+    color: white;
+}
+#footer{
+    background-color:rgba(0, 0, 0, 0.678);
+    color: white;
+  
+}
+#foot{
+   height: 50px; 
+   color:white;
+}
+
+#foot p{
+   padding-top: 10px;
+}
+
+mobile-menu{
+    position:fixed;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+    background: rgb(100, 94, 94);
+    z-index: 2;
+    text-align: right;
+
+    display:none ;
+}
+
+
+#mobile-menu a{
+    color: white;
+    
+}
+
+#mobile-menu a:hover{
+    color:gray;
+}
+
+#mobile-menu #close-btn{
+    position:absolute;
+    right:20px;
+    top:15px;
+    width:40px;
+    
+}
+#header-menu #menu-fone {
+    position:absolute;
+    right:100px;
+    top: 50px;
+    width: 30px;
+    
+}
+#navigation-mobile{
+    padding-top: 50px;
+}
+#menu-tel-hed{
+  margin-top:  42px;
+  
+}
+@media screen and (max-width: 768px) {
+  header a {
+        text-align: center;
+    }
+    }
+@media screen and (max-width: 768px) {
+        #rec-work {
+             text-align: center;
+         }
+         }
+@media screen and (max-width: 768px) {
+            #cow {
+            text-align: center;
+        }
+         
+      }
+         
+ @media screen and (min-width: 414px) {
+        #hed-menu {
+        display:none ;
+    }
+     
+  }
+
+  @media screen and (min-width: 1024px) {
+    #hed-menu {
+    display:flex;
+    margin:0 auto;
+    }
+}
+ 
+@media screen and (max-width: 768px) {
+   #header-menu #naslov-header {
+      display: flex;
+      transform: translateY(-60px); 
+      
+    }
+}
+           
+@media screen and (max-width: 414px) {
+   #header-menu #menu-tel-hed p {
+
+       padding-top: 30px;
+    
+    }
+}
+             
+@media screen and (max-width: 1080px) {
+   .solid-header {
+       border: 1px solid black;
+       color: white;
+     }
+ }
+              
+ @media screen and (max-width: 768px) {
+    .solid-header {
+        border: 1px solid black;
+        color: white;
+      }
+  }
+               
